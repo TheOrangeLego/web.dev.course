@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Course 1 - Introduction to HTML5</title>
+  </head>
+
+  <body>
+    <h1>Attention Please!</h1>
+
+    <h2>Do I Have Your Attention Now?</h2>
+
+    <h4>Well I Hope I Do Now</h4>
+
+    <p>Let us begin with the programmer's classic first general output, Hello World!</p>
+
+    <!-- introduction to line breaking and code agnoticism -->
+    <p>
+      Notice how the spacing happened between the last sentence and this one. Remember to think of these as what the
+      <b>p</b> stands for in this element, a paragraph. So, no matter how many lines we skip in the code,
+
+
+
+
+
+
+
+      the web browser will render it as a single continuous paragraph. Instead, we use the break tag, <br> as such.
+    </p>
+
+    <!-- examples of line breaking -->
+    <p>
+      Therefore, <br> although the code would look weird, <br> all the users would care for is how <br> it is rendered
+      at the end.
+    </p>
+
+    <!-- covering images and attributes -->
+    <p>
+      Now, let us have an image. <br>
+      
+      <img src="media/spoon.jpg" alt="Spoon"> <br>
+
+      Notice two things, the size of the image along with its alternative text. We can change that through the
+      attributes. <br>
+
+      <img src="media/spoon.jpg" alt="Now this is another alternative title" width="100" height="100"> <br>
+
+      <img src="media/bad_image.jpg" alt="You should be able to see me" width="100" height="100"> <br>
+
+      Without specifying the width or height, the web browser will use the original size of the image.
+    </p>
+
+    <!-- let us skip videos as we do not have any videos easily available -->
+
+    <!-- we shall continue with both kinds of lists -->
+    <p>
+      Sometimes we want to have a list represented somewhere in our document, but the kind of list matters to represent
+      some underlying information. Regardless of the type, we use the <b>li</b> element to create a list item.
+
+      For example, an ordered list could represent steps in completing something:
+
+      <ol>
+        <li>Stand up</li>
+        <li>Take a breather</li>
+        <li>Recognized how much you've learnt</li>
+        <li>Once ready, sit back down and let's continue</li>
+      </ol>
+
+      On the other hand, an unordered list would denote some points whose order is not of importance:
+
+      <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Water</li>
+        <li>Milk</li>
+      </ul>
+    </p>
+
+    <p>
+      Lastly, we will cover links, the core foundation of HTML. These can be made with the <b>a</b> element and can link
+      to both pages <a href="http://www.google.com">outside our own domain</a> and <a href="page1.html">within our domain</a>.
+    </p>
+
+    <p>
+      We can also have our links open on another tab, whether it will download a file on click, and we can even wrap
+      it around something to make the entire thing a link.
+    </p>
+
+    <a href="https://en.wikipedia.org/wiki/Spoon">
+      <img src="media/spoon.jpg" alt="spoon" width="200" height="200">
+    </a>
+  </body>
+</html>
