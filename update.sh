@@ -30,3 +30,5 @@ fi
 if $DIRTY_DIR; then
   git reset HEAD^
 fi
+
+echo "You are good to go!!"

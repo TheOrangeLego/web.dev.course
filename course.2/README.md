@@ -47,11 +47,11 @@ For this course, we shall take a look at the following attributes and concepts:
   * `color` - colors any text, including links and headers
 * `background-color` - not only letters, but we can color the background too!
 * `id` - we can give a specific ID to DIVs, where we expect them to be unique throughout the page, and sometimes the
-           entire website
+    entire website
 * `class` - we can apply attributes on specific classes of DIVs, this allows us to re-use similar styles in many
-              places
+    places
 * `<div> ... </div>` - this tag in HTML allows us to group sections of the page together. This introduces two new
-                         concepts for CSS:
+    concepts for CSS:
 * `margin` - sometimes we want to add some offset for entire secions in order to prevent mushing our page with content
 * `padding` - similar to margins, but keep in mind that paddings are not the entire DIV, instead they are part of the
-                writeable part
+    writeable part

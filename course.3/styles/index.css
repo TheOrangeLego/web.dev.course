@@ -1,0 +1,84 @@
+body {
+  overflow: visible;
+}
+
+.double-spacing {
+  line-height: 150%;
+}
+
+#intro-text {
+  /* some extra styling, not relevant to the course*/
+  padding: 20px;
+
+  border: 10px dotted gray;
+
+  text-indent: 50px;
+  
+  width: 800px;
+  height: 300px;
+}
+
+.heavy-thick {
+  font-weight: 800;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.ellipsis {
+  max-width: 800px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#secret-text {
+  padding: 100px 30px;
+  min-width: 800px;
+  max-width: 800px;
+  text-align: center;
+  background-color: gray;
+
+  display: block;
+
+  visibility: hidden;
+}
+
+#transform-text {
+  width: 800px;
+  padding: 20px;;
+  transform: rotate3d(1, 2.0, -1.0, 20deg)
+}
+
+#final-text {
+  width: 800px;
+  padding: 20px;
+}
+
+#final-text > p > a {
+  text-decoration: none;
+}
+
+#final-text > p > a:hover {
+  background-color: lightblue;
+}
+
+#final-text > p > a:link,
+#final-text > p > a:visited {
+  color: orangered;
+}
+
+/* much easier to deal with, expecially with cascaded tags */
+.special-link {
+  text-decoration: none;
+}
+
+.special-link:hover {
+  background-color: lightblue;
+}
+
+.special-link:link,
+.special-link:visited {
+  color: orangered;
+}
